@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body { font-family: Arial, sans-serif; } /* Google-safe readable */
+.container {
+display: flex;
+gap: 20px;
+}
+.sidebar {
+flex: 1;
+background: #e0f7fa;
+padding: 15px;
+}
+.main {
+flex: 2;
+background: #fff3e0;
+padding: 15px;
+}
+/* Media query - collapses below 600px */
+@media (max-width: 600px) {
+.container { flex-direction: column; }
+}
+</style>
+</head>
+<body>
+<div class="container">
+<aside class="sidebar">
+<h3>Quick Facts</h3>
+<p>Global temp up 1.2°C</p>
+</aside>
+<article class="main">
+<h2>Climate Change in Kenya</h2>
+<p>Effects of drought in Turkana...</p>
+</article>
+</div>
+</body>
+</html>
